@@ -354,9 +354,11 @@ class Tado:
         if self.isX:
             cmd = 'rooms/%i/manualControl' % zone
             method = 'POST'
+            tempParam = 'value'
         else:
             cmd = 'zones/%i/overlay' % zone
             method='PUT'
+            tempParam = 'celsius'
 
         post_data = {
             "setting" : {},
@@ -374,7 +376,7 @@ class Tado:
                 "power": power,
                 "mode": mode,
                 "temperature":{
-                    "celsius": setTemp
+                    tempParam: setTemp
                 }
             }
         else:
@@ -382,7 +384,7 @@ class Tado:
                 "type": deviceType,
                 "power": power,
                 "temperature":{
-                    "celsius": setTemp
+                    tempParam: setTemp
                 }
             }
 
