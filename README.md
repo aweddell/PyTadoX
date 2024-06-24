@@ -3,6 +3,7 @@ PyTado -- Pythonize your central heating
 
 Author: Chris Jewell <chrism0dwk@gmail.com>  
 Modified: Wolfgang Malgadey <wolfgang@malgadey.de>
+Modified: Alistair Weddell <alistair.weddell@gmail.com>
 
 Licence: GPL v3
 

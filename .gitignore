@@ -12,3 +12,14 @@ pytado.egg-info
 
 PyCharms
 .idea/
+
+#VSCode Files
+.vscode/
+
+#Test Files
+test.py
+.pylintrc
+
+#Macos Stuff
+.DS_Store
+
